@@ -68,7 +68,7 @@ client.on("message", message => {
         // postする
         request.post(options, function (error, response, body) {
             if (error != null) {
-                msg.reply("更新に失敗しました");
+                console.log("error");
                 return;
             }
 
