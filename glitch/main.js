@@ -33,7 +33,6 @@ client.on("message", message => {
         return;
     }
 
-    var msg = message;
 
     // GASにメッセージを送信
     if (message.content.includes("@everyone")) {
