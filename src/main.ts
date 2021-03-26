@@ -42,7 +42,7 @@ function sendLineMessage(e) {
         "messages": [
             {
                 "type": "text",
-                "text": e.name + "より送信\n\n" + e.message
+                "text": "#" + e.channel + "\n" + e.name + "より送信\n\n" + e.message
             }
         ]
     };

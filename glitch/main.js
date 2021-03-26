@@ -47,6 +47,7 @@ client.on("message", message => {
             events: [{
                 type: "discord",
                 name: message.author.username,
+                channel: message.channel.name,
                 message: message.content
             }]
         };
